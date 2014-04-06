@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+	 <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+         <FrameLayout
+        	android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:id="@+id/fl_radar"
+            >
+            <ImageView
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_gravity="center"
+                android:src="@drawable/act_radar_bg" 
+                android:scaleType="center"
+                />
+            <ImageView
+                android:id="@+id/im_scan"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_gravity="center"
+                android:src="@drawable/act_radar_scanning_03" 
+                android:scaleType="center"
+                />
+            <ImageView
+                android:id="@+id/im_dian"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/act_radar_dian_03" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在检查更新,请等待.."
+            android:layout_above="@id/fl_radar"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_four"
+                    />
+    <LinearLayout
+          android:id="@+id/linearlayout_one" 
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="你的当前版本为：" 
+                android:textSize="25dp"
+                android:textColor="@color/red"
+                />
+            <TextView
+                android:id="@+id/vers_tv_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="4.02.07" />
+        <TextView
+             android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="你好！\n你的版本已经是最新版本不需要更新！\n谢谢你的使用！" />
+    </LinearLayout>
+    
+    
+	<LinearLayout
+	    android:id="@+id/linearlayout_two" 
+	    android:visibility="gone"
+	    android:layout_centerInParent="true"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      
+	    >
+	      
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="你的当前版本为：" 
+                android:textSize="25dp"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                 android:id="@+id/vers_tv_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="4.02.07" />
+       
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="最新版本为：" 
+                android:textSize="25dp"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                 android:id="@+id/vers_tv_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="4.03.5" />
+        </LinearLayout>
+
+              <Button
+                  android:id="@+id/updateversions"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:layout_marginTop="30dp"
+                  android:text="立刻更新"
+                  android:textColor="@color/red" />
+
+	</LinearLayout>
+</RelativeLayout>

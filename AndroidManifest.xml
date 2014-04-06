@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shwootide.mdm"
+    android:versionCode="2"
+    android:versionName="V4.01.0314"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <!-- MDM配置 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+  
+    <!-- 个推SDK配置开始 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 可选权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+	
+    <!-- 个推SDK配置结束 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bli_logo"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppTheme" 
+       android:name="com.shwootide.mdm.view.MyApplication"
+        >
+
+        <!-- 在下面加入你的activity配置 -->
+        <activity android:name="com.shwootide.mdm.view.ProductIntroduceView" >
+        </activity>
+        <activity android:name="com.shwootide.mdm.view.EmaStoreView" >
+        </activity>
+        <activity android:name="com.shwootide.mdm.view.MainNewsContent" >
+        </activity>
+        <activity android:name="com.shwootide.mdm.view.MainNoticeView" >
+        </activity>
+        <activity
+            android:name="com.igexin.GexinSdkDemoActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <!-- 在上面加入你的你的activity配置 -->
+
+        <activity
+            android:name=".view.MainView"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity android:name=".view.AppManagerView" >
+        </activity>
+        <activity android:name="com.shwootide.mdm.view.MainLogView" >
+        </activity>
+        <activity android:name=".view.LogView" >
+        </activity>
+        <activity android:name=".view.FlowView" >
+        </activity>
+        <activity android:name=".view.MoreView" >
+        </activity>
+        <activity android:name=".view.NewsView" >
+        </activity>
+        <activity android:name=".view.LoginView" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.NewsContentView" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <!--
+        <receiver android:name=".view.DeviceAdminSample$DeviceAdminSampleReceiver"
+        android:label="@string/sample_device_admin"
+        android:description="@string/sample_device_admin_description"
+        android:permission="android.permission.BIND_DEVICE_ADMIN">
+    		<meta-data android:name="android.app.device_admin"
+               android:resource="@xml/device_admin_sample" />
+    		<intent-filter>
+        		<action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+    		</intent-filter>
+		</receiver>
+        -->
+        <receiver
+            android:name=".view.MyDeviceAdminReceiver"
+            android:description="@string/sample_device_admin_description"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 个推SDK配置开始 -->
+        <!-- 配置的第三方参数属性 -->
+        <meta-data
+            android:name="appid"
+            android:value="BJBJkMGRzk90gpafi2fH68" />
+        <meta-data
+            android:name="appkey"
+            android:value="2rZ2qaQsjq5qUOe4ySsQUA" />
+        <meta-data
+            android:name="appsecret"
+            android:value="n8cwX9iRyN7eYHPsbXsGH4" />
+
+        <receiver
+            android:name="com.igexin.GexinSdkMsgReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.BJBJkMGRzk90gpafi2fH68" />
+                <!-- com.igexin.sdk.action.第三方的appId -->
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.SdkActivity"
+            android:excludeFromRecents="true"
+            android:process="com.shwootide.mdm.pushservice"
+            android:taskAffinity="android.task.SdkActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+
+                <!-- com.igexin.action.popupact.第三方的包名 -->
+                <action android:name="com.igexin.action.popupact.com.shwootide.mdm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- <service -->
+        <!-- android:name="com.igexin.sdk.SdkMainService" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="NotifyCenter" -->
+        <!-- android:process=":pushservice" > -->
+        <!-- </service> -->
+        <service
+            android:name="com.igexin.sdk.SdkMainService"
+            android:exported="false"
+            android:label="NotifyCenter"
+            android:process="com.shwootide.mdm.pushservice" >
+        </service>
+
+        <receiver android:name="com.igexin.sdk.SdkReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <service -->
+        <!-- android:name="com.igexin.sdk.coordinator.SdkMsgService" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="NotifyCenterAIDL" -->
+        <!-- android:process=":pushservice" > -->
+        <!-- </service> -->
+        <service
+            android:name="com.igexin.sdk.coordinator.SdkMsgService"
+            android:exported="true"
+            android:label="NotifyCenterAIDL"
+            android:process="com.shwootide.mdm.pushservice" >
+        </service>
+
+        <receiver android:name="com.igexin.sdk.coordinator.NotificationCenterAIDLReceiver" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.refreshls" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ================================下载器模块================================= -->
+        <service
+            android:name="sdk.download.DownloadService"
+            android:process="com.shwootide.mdm.pushservice" />
+
+        <receiver
+            android:name="sdk.download.DownloadReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="sdk.download.DownloadProvider"
+            android:authorities="sdk.download.com.shwootide.mdm"
+            android:process="com.shwootide.mdm.pushservice" />
+        <!-- android:authorities="sdk.download.第三方包名" -->
+        <!-- =========================================================================== -->
+
+
+        <!-- 个推增量升级SDK配置开始 -->
+        <!-- 配置弹框activity -->
+        <activity
+            android:name="com.igexin.increment.activity.IncrementActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="android.task.myServicetask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 监听增量（全量）更新下推信息 -->
+        <receiver
+            android:name="com.igexin.increment.service.PayloadReceiver"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- 这个com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4固定，不能修改 -->
+                <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
+                <!-- android:name="com.igexin.sdk.action.第三方的appId" -->
+                <action android:name="com.igexin.sdk.action.BJBJkMGRzk90gpafi2fH68" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.igexin.increment.service.IncrementService"
+            android:exported="false"
+            android:process=":pushservice" />
+
+        <!-- 增量升级download模块配置 -->
+        <service
+            android:name="com.igexin.download.com.shwootide.mdm"
+            android:exported="false"
+            android:process=":pushservice" />
+        <!-- android:authorities="increment.download.第三方的包名" -->
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:authorities="increment.download.com.igexin.demo"
+            android:exported="false"
+            android:process=":pushservice" />
+
+        <receiver android:name="com.igexin.download.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- ================================================================================= -->
+
+
+        <!-- 个推SDK配置结束 -->
+com.shwootide.mdm.view
+<activity android:name="com.shwootide.mdm.view.UpdateVersionsView" >
+        </activity>
+        <activity android:name="com.shwootide.mdm.view.Showmain" >
+        </activity>
+        <activity
+            android:name="com.shwootide.mdm.flow.Appsdata"
+            android:label="@string/app_name" >
+        </activity>
+
+       
+        <receiver android:name="com.shwootide.mdm.devadmin.MyAdmin" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/my_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.shwootide.mdm.service.MyBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.shwootide.mdm.service.MyFlowBrodcastRervice" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                
+            </intent-filter>
+        </receiver>
+        <service 
+            android:name="com.shwootide.mdm.service.MyService"
+            ></service>
+        <receiver
+            android:name="com.shwootide.mdm.service.NetworkConnectChangedReceiver"
+            >
+             <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

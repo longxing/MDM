@@ -1,0 +1,153 @@
+
+系统应用：96个
+
+12-30 17:27:29.945: E/MainView(8522): appinfo:Android 系统,android,10
+12-30 17:27:29.945: E/MainView(8522): appinfo:TTS Service,android.tts,10
+12-30 17:27:29.945: E/MainView(8522): appinfo:SmsReg,com.Android.SmsReg,1
+12-30 17:27:29.945: E/MainView(8522): appinfo:Android networking diagnose tool!,com.android.ActivityNetwork,10
+12-30 17:27:29.945: E/MainView(8522): appinfo:SDAC,com.android.SDAC,10
+12-30 17:27:29.945: E/MainView(8522): appinfo:Bluetooth Share,com.android.bluetooth,10
+12-30 17:27:29.945: E/MainView(8522): appinfo:浏览器,com.android.browser,10
+12-30 17:27:29.946: E/MainView(8522): appinfo:计算器,com.android.calculator2,10
+12-30 17:27:29.946: E/MainView(8522): appinfo:日历,com.android.calendar,10
+12-30 17:27:29.946: E/MainView(8522): appinfo:Certificate Installer,com.android.certinstaller,10
+12-30 17:27:29.946: E/MainView(8522): appinfo:通讯录,com.android.contacts,2
+12-30 17:27:29.947: E/MainView(8522): appinfo:软件包访问帮助程序,com.android.defcontainer,10
+12-30 17:27:29.947: E/MainView(8522): appinfo:时钟,com.android.deskclock,202
+12-30 17:27:29.947: E/MainView(8522): appinfo:电子邮件,com.android.email,234000
+12-30 17:27:29.947: E/MainView(8522): appinfo:HTML 查看器,com.android.htmlviewer,10
+12-30 17:27:29.947: E/MainView(8522): appinfo:Android 键盘,com.android.inputmethod.latin,10
+12-30 17:27:29.947: E/MainView(8522): appinfo:启动器,com.android.launcher,10
+12-30 17:27:29.948: E/MainView(8522): appinfo:魔幻烟雾壁纸,com.android.magicsmoke,10
+12-30 17:27:29.948: E/MainView(8522): appinfo:信息,com.android.mms,10
+12-30 17:27:29.948: E/MainView(8522): appinfo:音乐,com.android.music,10
+12-30 17:27:29.948: E/MainView(8522): appinfo:音乐可视化壁纸,com.android.musicvis,10
+12-30 17:27:29.948: E/MainView(8522): appinfo:流量监控,com.android.netmonitor,90918
+12-30 17:27:29.948: E/MainView(8522): appinfo:电池管理,com.android.optimize,65810
+12-30 17:27:29.948: E/MainView(8522): appinfo:打包安装程序,com.android.packageinstaller,10
+12-30 17:27:29.949: E/MainView(8522): appinfo:拨号器,com.android.phone,10
+12-30 17:27:29.949: E/MainView(8522): appinfo:主屏幕提示,com.android.protips,1
+12-30 17:27:29.949: E/MainView(8522): appinfo:搜索应用程序提供商,com.android.providers.applications,10
+12-30 17:27:29.949: E/MainView(8522): appinfo:日历存储,com.android.providers.calendar,10
+12-30 17:27:29.949: E/MainView(8522): appinfo:联系人存储,com.android.providers.contacts,10
+12-30 17:27:29.949: E/MainView(8522): appinfo:下载管理器,com.android.providers.downloads,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:下载内容,com.android.providers.downloads.ui,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:受 DRM 保护的内容的存储,com.android.providers.drm,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:媒体存储,com.android.providers.media,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:设置存储,com.android.providers.settings,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:帐户与同步设置,com.android.providers.subscribedfeeds,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:拨号器存储,com.android.providers.telephony,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:User Dictionary,com.android.providers.userdictionary,10
+12-30 17:27:29.950: E/MainView(8522): appinfo:com.android.provision,com.android.provision,10
+12-30 17:27:29.951: E/MainView(8522): appinfo:搜索,com.android.quicksearchbox,110
+12-30 17:27:29.951: E/MainView(8522): appinfo:世界时钟,com.android.qworldclock,1
+12-30 17:27:29.951: E/MainView(8522): appinfo:虚拟专用网服务,com.android.server.vpn,10
+12-30 17:27:29.951: E/MainView(8522): appinfo:设置,com.android.settings,10
+12-30 17:27:29.952: E/MainView(8522): appinfo:EM SIM ME Lock,com.android.simmelock,10
+12-30 17:27:29.952: E/MainView(8522): appinfo:录音机,com.android.soundrecorder,10
+12-30 17:27:29.952: E/MainView(8522): appinfo:USIM 卡应用,com.android.stk,10
+12-30 17:27:29.953: E/MainView(8522): appinfo:SIM 卡应用,com.android.stk2,10
+12-30 17:27:29.953: E/MainView(8522): appinfo:秒表,com.android.stoptimer,1
+12-30 17:27:29.953: E/MainView(8522): appinfo:状态栏,com.android.systemui,10
+12-30 17:27:29.953: E/MainView(8522): appinfo:Android 动态壁纸,com.android.wallpaper,10
+12-30 17:27:29.954: E/MainView(8522): appinfo:Live Wallpaper Picker,com.android.wallpaper.livepicker,10
+12-30 17:27:29.954: E/MainView(8522): appinfo:手机邮箱,com.asiainfo.android,365
+12-30 17:27:29.954: E/MainView(8522): appinfo:图库,com.cooliris.media,30682
+12-30 17:27:29.955: E/MainView(8522): appinfo:多米音乐,com.duomi.androidLenovo,141
+12-30 17:27:29.955: E/MainView(8522): appinfo:沃商店,com.infinit.wostore.ui,230
+12-30 17:27:29.956: E/MainView(8522): appinfo:备份恢复,com.lenovo.BackupRestore,9
+12-30 17:27:29.956: E/MainView(8522): appinfo:乐Widget,com.lenovo.android.LenovoLeWidget,1510965628
+12-30 17:27:29.956: E/MainView(8522): appinfo:天气预报,com.lenovo.android.LenovoSinaWeather,-1784001778
+12-30 17:27:29.956: E/MainView(8522): appinfo:乐商店,com.lenovo.leos.appstore,168
+12-30 17:27:29.957: E/MainView(8522): appinfo:服务设置,com.lenovo.leos.lenovoservicesetting,1011
+12-30 17:27:29.957: E/MainView(8522): appinfo:服务框架,com.lenovo.leos.pushengine,3751
+12-30 17:27:29.957: E/MainView(8522): appinfo:乐安全,com.lenovo.safecenter,3710461
+12-30 17:27:29.957: E/MainView(8522): appinfo:乐服务,com.lenovo.service,2012091302
+12-30 17:27:29.958: E/MainView(8522): appinfo:用户体验,com.lenovo.ue.service,1
+12-30 17:27:29.958: E/MainView(8522): appinfo:装配测试,com.longcheertel.midtest,10
+12-30 17:27:29.959: E/MainView(8522): appinfo:com.mediatek,com.mediatek,10
+12-30 17:27:29.959: E/MainView(8522): appinfo:CellConnectionService,com.mediatek.CellConnService,10
+12-30 17:27:29.959: E/MainView(8522): appinfo:收音机,com.mediatek.FMRadio,1
+12-30 17:27:29.960: E/MainView(8522): appinfo:文件共享客户端,com.mediatek.FileSharingClient,1
+12-30 17:27:29.961: E/MainView(8522): appinfo:FTP 客户端,com.mediatek.FileSharingServer,10
+12-30 17:27:29.961: E/MainView(8522): appinfo:WLANContactSync,com.mediatek.WifiContactSync,1
+12-30 17:27:29.961: E/MainView(8522): appinfo:APK 安装器,com.mediatek.apkinstaller,10
+12-30 17:27:29.961: E/MainView(8522): appinfo:MTK Android套件精灵,com.mediatek.apst.target,2
+12-30 17:27:29.962: E/MainView(8522): appinfo:蓝牙,com.mediatek.bluetooth,10
+12-30 17:27:29.962: E/MainView(8522): appinfo:文件共享浏览器,com.mediatek.bonjourExplorer,1
+12-30 17:27:29.962: E/MainView(8522): appinfo:VCalendar,com.mediatek.calendarimporter,1
+12-30 17:27:29.963: E/MainView(8522): appinfo:相机,com.mediatek.camera,10
+12-30 17:27:29.963: E/MainView(8522): appinfo:EngineerMode,com.mediatek.engineermode,1
+12-30 17:27:29.964: E/MainView(8522): appinfo:文件管理,com.mediatek.filemanager,1
+12-30 17:27:29.964: E/MainView(8522): appinfo:ModemLog,com.mediatek.mdlogger,1
+12-30 17:27:29.964: E/MainView(8522): appinfo:MobileLog,com.mediatek.mobilelog,1
+12-30 17:27:29.965: E/MainView(8522): appinfo:com.mediatek.omacp,com.mediatek.omacp,10
+12-30 17:27:29.965: E/MainView(8522): appinfo:媒体控制器,com.mediatek.upnp,1
+12-30 17:27:29.966: E/MainView(8522): appinfo:电影,com.mediatek.videoplayer2,1
+12-30 17:27:29.966: E/MainView(8522): appinfo:MTK 动态壁纸,com.mediatek.vlw,10
+12-30 17:27:29.967: E/MainView(8522): appinfo:MTK 动态壁纸,com.mediatek.wallpaper,10
+12-30 17:27:29.967: E/MainView(8522): appinfo:WLAN P2P,com.mediatek.wifip2pwizardy,1
+12-30 17:27:29.967: E/MainView(8522): appinfo:沃·3G,com.mediatek.wo3g,1
+12-30 17:27:29.967: E/MainView(8522): appinfo:YGPS,com.mediatek.ygps,1
+12-30 17:27:29.967: E/MainView(8522): appinfo:116114,com.neusoft.td.android.wo116114,300
+12-30 17:27:29.968: E/MainView(8522): appinfo:微博,com.sina.weibo,177
+12-30 17:27:29.968: E/MainView(8522): appinfo:手机营业厅,com.sinovatech.unicom.ui,2
+12-30 17:27:29.968: E/MainView(8522): appinfo:搜狗输入法,com.sohu.inputmethod.sogou,35
+12-30 17:27:29.968: E/MainView(8522): appinfo:备忘录,com.sprdroid.note,1
+12-30 17:27:29.968: E/MainView(8522): appinfo:Pico TTS,com.svox.pico,1
+12-30 17:27:29.968: E/MainView(8522): appinfo:Wsddrv-Demo,inc.mtk.wifip2p,1
+12-30 17:27:29.969: E/MainView(8522): appinfo:归属地,lenovo.citynum,1
+
+
+非系统应用12个
+12-30 17:31:21.716: E/MainView(9266): appinfo:百度一键root,com.baidu.easyroot,2303
+12-30 17:31:21.716: E/MainView(9266): appinfo:ES 文件浏览器,com.estrongs.android.pop,123
+12-30 17:31:21.716: E/MainView(9266): appinfo:qrcodetest,com.example.qrcodetest,1
+12-30 17:31:21.716: E/MainView(9266): appinfo:MobileIron,com.mobileiron,53
+12-30 17:31:21.716: E/MainView(9266): appinfo:mypatroller,com.mypatroller,8
+12-30 17:31:21.717: E/MainView(9266): appinfo:91助手连接服务,com.nd.assistance,273
+12-30 17:31:21.717: E/MainView(9266): appinfo:pureonedigital,com.pureonedigital,1
+12-30 17:31:21.717: E/MainView(9266): appinfo:360手机助手,com.qihoo.appstore,109023001
+12-30 17:31:21.717: E/MainView(9266): appinfo:MDM,com.shwootide.mdm,1
+12-30 17:31:21.717: E/MainView(9266): appinfo:应用宝,com.tencent.android.qqdownloader,1060125
+12-30 17:31:21.718: E/MainView(9266): appinfo:我查查,com.wochacha,565
+12-30 17:31:21.718: E/MainView(9266): appinfo:会计人员继续教育,net.esnai.ce.android.mobile,1
+
+
+12-31 09:19:02.560: E/MainView(14276): 
+beanListToJson:[{"appName":"AppName","packageName":"cn.trinea.android.common","versionName":"1.0","versionCode":1},{"appName":"百度一键root","packageName":"com.baidu.easyroot","versionName":"V2.3.3","versionCode":2303},{"appName":"ES 文件浏览器","packageName":"com.estrongs.android.pop","versionName":"3.0.6.0","versionCode":123},{"appName":"qrcodetest","packageName":"com.example.qrcodetest","versionName":"1.0","versionCode":1},{"appName":"MobileIron","packageName":"com.mobileiron","versionName":"5.6.0.2.9R","versionCode":53},{"appName":"mypatroller","packageName":"com.mypatroller","versionName":"3.30.1213","versionCode":8},{"appName":"91助手连接服务","packageName":"com.nd.assistance","versionName":"2.6.273","versionCode":273},{"appName":"pureonedigital","packageName":"com.pureonedigital","versionName":"1.0","versionCode":1},{"appName":"360手机助手","packageName":"com.qihoo.appstore","versionName":"1.9.230","versionCode":109023001},{"appName":"MDM","packageName":"com.shwootide.mdm","versionName":"1.0","versionCode":1},{"appName":"应用宝","packageName":"com.tencent.android.qqdownloader","versionName":"3.7 beta3","versionCode":1060125},{"appName":"我查查","packageName":"com.wochacha","versionName":"5.6.5","versionCode":565},{"appName":"会计人员继续教育","packageName":"net.esnai.ce.android.mobile","versionName":"0.9.5","versionCode":1}]
+
+12-31 09:20:33.778: E/MainView(14352): beanListToJson:
+[
+{"appName":"91助手连接服务","packageName":"com.nd.assistance","versionName":"2.6.273"},
+{"appName":"360手机助手","packageName":"com.qihoo.appstore","versionName":"1.9.230"},
+{"appName":"应用宝","packageName":"com.tencent.android.qqdownloader","versionName":"3.7 beta3"},
+{"appName":"我查查","packageName":"com.wochacha","versionName":"5.6.5"},
+{"appName":"会计人员继续教育","packageName":"net.esnai.ce.android.mobile","versionName":"0.9.5"}
+]
+
+
+判断存储卡是否存在
+http://www.eoeandroid.com/thread-112882-1-1.html
+
+完整例子读取 SDCard 内存大小 已用大小
+http://www.cnblogs.com/TerryBlog/archive/2010/06/27/1766363.html
+http://www.eoeandroid.com/thread-32897-1-1.html
+系统内存大小获取
+http://blog.csdn.net/hudashi/article/details/7050897
+
+
+
+A server-side library for sending Push Notifications to iOS (iPhone/iPad APNS), Android (C2DM and GCM - Google Cloud Message), Windows Phone, Windows 8, Amazon, Blackberry, and (soon) FirefoxOS devices!
+https://github.com/Redth/PushSharp/
+
+
+JAVA 和 .net相互调用
+http://www.cnblogs.com/leslies2/archive/2011/04/24/2024707.html
+
+安装 和 卸载过后都要更新软件应用列表；
+可以考虑些一个服务轮询的来更新本设备的应用软件列表信息；
+
+
+
+

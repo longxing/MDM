@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开文件请确保你安装了\n相应的文件查看器..."
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(推荐安装金山 wsp office)"
+        android:textSize="20dp" />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:id="@+id/linear_check"
+	    >
+	    <CheckBox
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/checkbox"
+	        android:checked="false"
+	        />
+	    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以后不再提示"
+        android:textSize="15dp" />
+	</LinearLayout>
+</LinearLayout>

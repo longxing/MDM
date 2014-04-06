@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mainnotice_tv_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="开会啦"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mainnotice_tv_two"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="201232-522-65656" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:text="发布者:" />
+
+            <TextView
+                android:id="@+id/mainnotice_tv_three"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:text="admin" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/mainnotice_tv_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下午开会"
+            
+            android:textSize="20dp" />
+
+       <ListView 
+           android:layout_width="match_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/mainnotice_linear"
+           >
+           
+       </ListView>
+    </LinearLayout>
+
+</LinearLayout>

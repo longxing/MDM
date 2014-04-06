@@ -1,0 +1,230 @@
+List<ComponentName>	 getActiveAdmins()
+int	 getCurrentFailedPasswordAttempts()
+int	 getMaximumFailedPasswordsForWipe(ComponentName admin)
+long	 getMaximumTimeToLock(ComponentName admin)
+int	 getPasswordMaximumLength(int quality)
+int	 getPasswordMinimumLength(ComponentName admin)
+int	 getPasswordQuality(ComponentName admin)
+boolean	 isActivePasswordSufficient()
+boolean	 isAdminActive(ComponentName who)
+void	 lockNow()
+void	 removeActiveAdmin(ComponentName who)
+boolean	 resetPassword(String password, int flags)
+void	 setMaximumFailedPasswordsForWipe(ComponentName admin, int num)
+void	 setMaximumTimeToLock(ComponentName admin, long timeMs)
+void	 setPasswordMinimumLength(ComponentName admin, int length)
+void	 setPasswordQuality(ComponentName admin, int quality)
+void	 wipeData(int flags)
+
+
+devicePolicyManager.wipeData(0);  恢复出厂设置
+devicePolicyManager.lockNow(); // 锁屏
+devicePolicyManager.resetPassword("123", 0); // 设置锁屏密码
+设置屏幕灯光变暗时间相关
+long timeout = 1000L * Long.parseLong(et.getText().toString()); 
+mDPM.setMaximumTimeToLock(mDeviceComponentName, timeout);
+
+// 设置5秒后锁屏
+devicePolicyManager.setMaximumTimeToLock(componentName, 5000);
+// 恢复出厂设置
+devicePolicyManager.wipeData(0);
+// 设置密码锁
+devicePolicyManager.resetPassword("***password",
+                DevicePolicyManager.RESET_PASSWORD_REQUIRE_ENTRY);
+        devicePolicyManager.lockNow();
+
+
+// 设置解锁方式
+// PASSWORD_QUALITY_ALPHABETIC
+        // 用户输入的密码必须要有字母（或者其他字符）。
+        // PASSWORD_QUALITY_ALPHANUMERIC
+        // 用户输入的密码必须要有字母和数字。
+        // PASSWORD_QUALITY_NUMERIC
+        // 用户输入的密码必须要有数字
+        // PASSWORD_QUALITY_SOMETHING
+        // 由设计人员决定的。
+        // PASSWORD_QUALITY_UNSPECIFIED
+        // 对密码没有要求。
+        Intent intent = new Intent(DevicePolicyManager.ACTION_SET_NEW_PASSWORD);
+        devicePolicyManager.setPasswordQuality(componentName,
+                DevicePolicyManager.PASSWORD_QUALITY_NUMERIC);
+        startActivity(intent);
+        
+        
+// 移除程序 如果不移除程序 APP无法被卸载
+devicePolicyManager.removeActiveAdmin(componentName);
+
+
+
+http://android.toolib.net/reference/android/app/admin/DevicePolicyManager.html 
+http://wiki.eoe.cn/page/Device_Policies  //写的比较详细
+
+
+
+List<ComponentName>	 getActiveAdmins()
+boolean	 getCameraDisabled(ComponentName admin)
+int	 getCurrentFailedPasswordAttempts()
+int	 getKeyguardDisabledFeatures(ComponentName admin)
+int	 getMaximumFailedPasswordsForWipe(ComponentName admin)
+long	 getMaximumTimeToLock(ComponentName admin)
+long	 getPasswordExpiration(ComponentName admin)
+long	 getPasswordExpirationTimeout(ComponentName admin)
+int	 getPasswordHistoryLength(ComponentName admin)
+int	 getPasswordMaximumLength(int quality)
+int	 getPasswordMinimumLength(ComponentName admin)
+int	 getPasswordMinimumLetters(ComponentName admin)
+int	 getPasswordMinimumLowerCase(ComponentName admin)
+int	 getPasswordMinimumNonLetter(ComponentName admin)
+int	 getPasswordMinimumNumeric(ComponentName admin)
+int	 getPasswordMinimumSymbols(ComponentName admin)
+int	 getPasswordMinimumUpperCase(ComponentName admin)
+int	 getPasswordQuality(ComponentName admin)
+boolean	 getStorageEncryption(ComponentName admin)
+int	 getStorageEncryptionStatus()
+boolean	 hasGrantedPolicy(ComponentName admin, int usesPolicy)
+boolean	 isActivePasswordSufficient()
+boolean	 isAdminActive(ComponentName who)
+void	 lockNow()
+void	 removeActiveAdmin(ComponentName who)
+boolean	 resetPassword(String password, int flags)
+void	 setCameraDisabled(ComponentName admin, boolean disabled)
+void	 setKeyguardDisabledFeatures(ComponentName admin, int which)
+void	 setMaximumFailedPasswordsForWipe(ComponentName admin, int num)
+void	 setMaximumTimeToLock(ComponentName admin, long timeMs)
+void	 setPasswordExpirationTimeout(ComponentName admin, long timeout)
+void	 setPasswordHistoryLength(ComponentName admin, int length)
+void	 setPasswordMinimumLength(ComponentName admin, int length)
+void	 setPasswordMinimumLetters(ComponentName admin, int length)
+void	 setPasswordMinimumLowerCase(ComponentName admin, int length)
+void	 setPasswordMinimumNonLetter(ComponentName admin, int length)
+void	 setPasswordMinimumNumeric(ComponentName admin, int length)
+void	 setPasswordMinimumSymbols(ComponentName admin, int length)
+void	 setPasswordMinimumUpperCase(ComponentName admin, int length)
+void	 setPasswordQuality(ComponentName admin, int quality)
+int	 setStorageEncryption(ComponentName admin, boolean encrypt)
+void	 wipeData(int flags)
+        
+  
+  
+  
+  允许蓝牙、允许数据漫游      
+  
+  蓝牙
+  <uses-permissionandroid:name="android.permission.BLUETOOTH_ADMIN" />
+
+<uses-permissionandroid:name="android.permission.BLUETOOTH" />
+BluetoothAdapter 顾名思义，蓝牙适配器
+ disable()关闭蓝牙
+  enable()打开蓝牙
+  http://android.tgbus.com/Android/tutorial/201103/346657.shtml
+   
+
+02-10 13:47:31.212: V/Provider/Setting(4976): 
+Setting data_roaming has moved from android.provider.Settings.System to android.provider.Settings.Secure, value is unchanged.
+02-10 13:47:31.213: V/Provider/Setting(4976): Setting data_roaming has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+
+
+02-10 14:00:08.167: E/AndroidRuntime(5446): java.lang.SecurityException: Permission denial: writing to secure settings requires android.permission.WRITE_SECURE_SETTINGS
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.os.Parcel.readException(Parcel.java:1353)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:192)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:146)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.content.ContentProviderProxy.insert(ContentProviderNative.java:439)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.content.ContentResolver.insert(ContentResolver.java:635)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.provider.Settings$NameValueTable.putString(Settings.java:610)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.provider.Settings$Secure.putString(Settings.java:2448)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.provider.Settings$Secure.putInt(Settings.java:2526)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at com.shwootide.mdm.view.LogView$2.onClick(LogView.java:105)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.view.View.performClick(View.java:2535)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.view.View$PerformClick.run(View.java:9129)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.os.Handler.handleCallback(Handler.java:618)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.os.Handler.dispatchMessage(Handler.java:123)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.os.Looper.loop(SourceFile:351)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at android.app.ActivityThread.main(ActivityThread.java:3820)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at java.lang.reflect.Method.invoke(Method.java:538)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:969)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:727)
+02-10 14:00:08.167: E/AndroidRuntime(5446): 	at dalvik.system.NativeStart.main(Native Method)
+
+    
+    
+    
+    02-14 14:50:33.750: D/GexinSdkMsgReceiver(4740): 
+    Password@{
+    "configType":"Password",
+    "configName":"test password",
+    "allowSimple":true,//允许简单值
+    "requireAlphanumeric":true,//要求字母和数字值
+    "minLength":1,//最短的密码长度
+    "minComplexChars":0,//必须包含的复杂字符的最少数目
+    "maxPINAgeInDays":2,//最长的密码有效期
+    "maxInactivity":0,//自动锁定时间
+    "pinHistory":3,//密码历史记录个数
+    "maxGracePeriod":60,//设备锁定的宽限时间
+    "maxFailedAttempts":4}//最多可允许的失败次数
+    
+    void	 setKeyguardDisabledFeatures(ComponentName admin, int which)
+void	 setMaximumFailedPasswordsForWipe(ComponentName admin, int num)
+void	 setMaximumTimeToLock(ComponentName admin, long timeMs)
+void	 setPasswordExpirationTimeout(ComponentName admin, long timeout)
+void	 setPasswordHistoryLength(ComponentName admin, int length)
+void	 setPasswordMinimumLength(ComponentName admin, int length)
+void	 setPasswordMinimumLetters(ComponentName admin, int length)
+void	 setPasswordMinimumLowerCase(ComponentName admin, int length)
+void	 setPasswordMinimumNonLetter(ComponentName admin, int length)
+void	 setPasswordMinimumNumeric(ComponentName admin, int length)
+void	 setPasswordMinimumSymbols(ComponentName admin, int length)
+void	 setPasswordMinimumUpperCase(ComponentName admin, int length)
+void	 setPasswordQuality(ComponentName admin, int quality)
+int	 setStorageEncryption(ComponentName admin, boolean encrypt)
+    
+    
+    
+    
+ 允许简单值  allowSimple
+要求字母和数字值  requireAlphanumeric
+最短的密码长度 minLength
+必须包含的复杂字符的最少数目 minComplexChars
+最长的密码有效期（1到730天，或无期限）maxPINAgeInDays
+自动锁定（1到5分钟，或者2、5、10或15分钟，或者不锁定）maxInactivity
+密码历史记录（1到50个密码，或者不记录） pinHistory
+设备锁定的宽限时间 maxGracePeriod
+最多可允许的失败次数 maxFailedAttempts
+
+
+02-19 16:53:25.540: E/GexinSdkMsgReceiver(2628): 
+
+
+02-19 17:26:54.791: E/GexinSdkMsgReceiver(2628): 
+Password@{
+"configType":"Password",
+"configName":"pass_test_android",
+"allowSimple":true,
+"requireAlphanumeric":true,
+"minLength":2,
+"minComplexChars":3,
+"maxPINAgeInDays":3,
+"maxInactivity":15,
+"pinHistory":4,
+"maxGracePeriod":null,
+"maxFailedAttempts":9}
+
+02-19 17:32:52.366: E/GexinSdkMsgReceiver(2628): 
+Wifi@{
+"configType":"Wifi",
+"configName":"wifi_test_android",
+"SSID_STR":"blithe123456",
+"HIDDEN_NETWORK":false,
+"EncryptionType":"WPA",
+"Password":"123456",
+"ProxyType":"None",
+"ProxyPACURL":"",
+"ProxyServer":"",
+"ProxyServerPort":"",
+"ProxyPassword":"",
+"ProxyUsername":""}
+
+
+http://www.haogongju.net/art/1980837
+
+    

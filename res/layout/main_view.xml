@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="4" >
+
+    <Button
+        android:id="@+id/bt001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#5ab1cb"
+        android:text="企业咨询" />
+
+    <Button
+        android:id="@+id/bt002"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:background="#5ab1cb"
+        android:text="应用管理" />
+
+    <Button
+        android:id="@+id/bt003"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#5ab1cb"
+        android:layout_marginTop="5dp"
+        android:text="远程操控测试" />
+
+    <Button
+        android:id="@+id/bt004"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#5ab1cb"
+        android:layout_marginTop="5dp"
+        android:text="日志管理" />
+
+</LinearLayout>

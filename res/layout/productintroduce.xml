@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:orientation="vertical"
+        >
+         <TextView
+        android:id="@+id/introduce_tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\t\t\t上海物泰信息科技有限公司是一家提供移动互联网和无线传感网应用解决方案的科技公司。我们致力于手机应用定制开发，为企业及个人客户量身打造移动APP。"
+        android:textSize="18dp" 
+        
+        />
+    <TextView 
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="固定电话：021-60753335"
+        android:textSize="18dp"
+        android:id="@+id/introduce_tv_two"
+     
+        />
+ <TextView 
+     android:id="@+id/introduce_tv_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="邮\t\t\t箱：sales@shwootide.com"
+        android:textSize="18dp"
+       
+        />
+    </LinearLayout>
+   
+</RelativeLayout>

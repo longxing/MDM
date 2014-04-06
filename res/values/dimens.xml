@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="padding_small">8dip</dimen>
+    <dimen name="padding_medium">8dip</dimen>
+    <dimen name="padding_large">20dip</dimen>
+    <dimen name="font_small">12dip</dimen>
+    <dimen name="marginleft">10dip</dimen>
+    <dimen name="font_middle">15dip</dimen>
+    <dimen name="item_height_">64px</dimen>
+    <dimen name="split_height">1dip</dimen>
+	<dimen name="maintance_content_gap">80dip</dimen>
+    <dimen name="chart_left">110dip</dimen>
+    <dimen name="chart_mid">2dip</dimen>
+    <dimen name="chart_right">80dip</dimen>
+    <dimen name="chart_weight">30dip</dimen>
+	<dimen name="nav_btn_width">50dip</dimen>
+    <dimen name="font_size_in_stack_title">10dip</dimen>
+    <dimen name="put_in_stock_detail_list_height">30dip</dimen>
+    <dimen name="edittextwidth">120dip</dimen>
+    <dimen name="selectitemwidth">200dip</dimen>
+    <dimen name="textviewwidht">60dip</dimen>
+    <dimen name="fivepercent">90dip</dimen>
+    
+    <dimen name="eidttextheight">35dip</dimen>
+    <dimen name="login_btn_width">60dip</dimen>
+	<dimen name="login_btn_height">40dip</dimen>
+    <!-- 以前定义的一些通用的尺寸抽取 -->
+    <dimen name="common_margin_left">12dip</dimen>
+    <dimen name="common_title_font_size">13dip</dimen>
+    <dimen name="common_item_height">38dip</dimen>
+    <dimen name="common_btn_height">32dip</dimen>
+    <dimen name="common_btn_height_">28px</dimen>
+    <dimen name="add_btn_height_">15px</dimen>
+    
+    <dimen name="common_btn_weight_">83px</dimen>
+    <dimen name="common_btn_width">40dip</dimen>
+    <!-- 以下是通用的部分大小 -->
+    <dimen name="list_padding">10dip</dimen>
+    <dimen name="title_fontsize">18dip</dimen>
+    <dimen name="title_height">25dip</dimen>
+    <dimen name="nav_height">40dip</dimen>
+    <dimen name="nav_textsize">25dip</dimen>
+    <dimen name="gap">120px</dimen>
+    
+        <!--  首页九宫格的长宽设置 -->
+    <dimen name="itemwidth">100dip</dimen>
+    <dimen name="itemheight">120dip</dimen>
+ 	<dimen name="itemimagewidth">60dip</dimen>
+ 	<dimen name="itemimageheight">60dip</dimen>
+    
+    <!-- 重新整理规划下公用尺寸 -->
+    <dimen name="forthwidth">110dip</dimen>
+    <!-- 头部栏目页标题 -->
+    <dimen name="common_title_height">38dip</dimen><!-- 标题高度 -->
+    <dimen name="common_title_fontsize">20sp</dimen><!-- 标题文字大小 -->
+    <!-- 表头 -->
+    <dimen name="common_form_head_height">45px</dimen><!-- 表头高度 -->
+    <dimen name="common_form_head_fontsize">18sp</dimen><!-- 表头文字尺寸 -->
+    <!-- ListView相关-->
+    <dimen name="common_listview_height">75px</dimen><!-- ListView高度 -->
+    <dimen name="common_listview_fontsize">14sp</dimen><!-- ListView文字大小 -->
+    <!-- UI左右边距 -->
+    <dimen name="common_left_padding">10dip</dimen><!-- UI左边距 -->
+    <dimen name="common_right_padding">10dip</dimen><!-- UI右边距 -->
+    
+    <!-- 内容列表项  -->
+    <dimen name="common_content_height">75px</dimen><!-- 内容高度 -->
+    <dimen name="common_content_fontsize">14sp</dimen><!-- 内容文字尺寸 -->
+    
+    <!-- UI分割线高度 -->
+    <dimen name="common_line_height">0.7dip</dimen>
+    
+    <dimen name="common_foot_fontsize">16dip</dimen>
+    <!-- 三分之一的宽度 -->
+    <dimen name="threepercentwidth">150dip</dimen>
+    <!-- 保养内容 的数据 -->
+    <dimen name = "left">144dip</dimen>
+    <dimen name = "middle">220dip</dimen>
+    <dimen name="right">120dip</dimen>
+    <dimen name="moreitemheight">45dip</dimen>
+    <dimen name="moreitem_marginLeft">10dip</dimen>
+    <dimen name="moreitem_img_H_w">30dip</dimen>
+    
+    
+    <dimen name="log_h">33dp</dimen>
+    
+    <!-- 登陆界面 -->
+    <dimen name="login_softwaretip_margintop">60dp</dimen>
+     <dimen name="login_tip_height">50dip</dimen>
+    <dimen name="login_icon_width">22dip</dimen>
+    <dimen name="login_icon_height">26dip</dimen>
+    <dimen name="login_content_margin">10dip</dimen>
+    <dimen name="login_username_height">40dip</dimen>
+    <dimen name="login_username_margintop">10dip</dimen>
+    <dimen name="login_username_marginbottom">10dip</dimen>
+    <dimen name="login_poweredby_marginbottom">20dip</dimen>
+    <dimen name="login_body_margin">20dp</dimen>
+    <dimen name="userlogo_height">26dp</dimen>
+    <dimen name="userlogo_width">22dp</dimen>
+    <dimen name="userlogo_marginleft">10dp</dimen>
+    <dimen name="login_pwd_margintop">20dip</dimen>
+    
+    <!-- flow -->
+    <!-- 主界面textview的高度值 -->
+	<dimen name="show_textview_height">28dp</dimen>
+	<!-- 主界面textview的宽度值 -->
+	<dimen name="show_textview_width">38dp</dimen>
+	<!-- 流量标题宽度值 -->
+	<dimen name="liuliang_total_width">150dp</dimen>
+	<!-- 流量标题高度值 -->
+	<dimen name="liuliang_total_height">25dp</dimen>
+	<!-- 流量小标题宽度值 -->
+	<dimen name="liuliang_mintotal_width">120dp</dimen>
+	<!-- 流量小标题高度值 -->
+	<dimen name="liuliang_mintotal_height">25dp</dimen>
+	<!-- 各分项离左边的距离 -->
+	<dimen name="margin_left">30dp</dimen>
+	<!--分割线的高度-->
+	<dimen name="line_height">1dp</dimen>
+	<!--标题文字大小-->
+	<dimen name="total_text_size">20dp</dimen>
+	<!--中部文字大小-->
+	<dimen name="mid_text_size">17dp</dimen>
+	<!--控件间上下的距离-->
+	<dimen name="margin_top_juli">5dp</dimen>
+	<!--时间控件宽度-->
+	<dimen name="date_textview_width">160dp</dimen>
+	<!--时间控件高度-->
+	<dimen name="date_kongjian_height">45dp</dimen>
+	<!--时间控件按钮宽度-->
+	<dimen name="date_button_width">130dp</dimen>
+	<!-- listview条目的高度 -->
+	<dimen name="item_height">50dp</dimen>
+	<!-- listview条目中image的宽度 -->
+	<dimen name="item_image_width">30dp</dimen>
+	<!-- listview条目中textview程序名的宽度 -->
+	<dimen name="item_appname_width">80dp</dimen>
+	<!-- listview条目中数据宽度 -->
+	<dimen name="item_data_width">70dp</dimen>
+    
+
+</resources>

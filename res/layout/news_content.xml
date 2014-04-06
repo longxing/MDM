@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/news_test_title" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:text="@string/news_test_time" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null"
+        android:fillViewport="true" 
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.shwootide.mdm.tools.UserTextView001
+                android:id="@+id/content001"
+                android:layout_width="fill_parent"
+                android:layout_height="170dp"
+                android:background="@null"
+                android:gravity="center"
+                android:visibility="visible" />
+            <!-- 段落和段落之间可以考虑不同颜色或者分割线展示，方便阅读 -->
+
+            <com.shwootide.mdm.tools.UserTextView002
+                android:id="@+id/content002"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="170dp"
+                android:background="@null"
+                android:gravity="center"
+                android:visibility="visible" />
+
+            <com.shwootide.mdm.tools.UserTextView003
+                android:id="@+id/content003"
+                android:layout_width="fill_parent"
+                android:layout_height="170dp"
+                android:background="@null"
+                android:gravity="center"
+                android:visibility="visible" />
+             <ImageView
+                android:id="@+id/img001"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/demo1"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="附件一" />
+
+            <ImageView
+                android:id="@+id/img002"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/demo1"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="附件二" />
+
+            <ImageView
+                android:id="@+id/img003"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/demo1"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="附件三" />
+
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

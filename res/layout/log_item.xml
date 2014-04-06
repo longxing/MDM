@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="6"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp" 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="时间时间时间时间时间时间时间时间时间时间时间时间"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_one"
+            />
+         <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="动作"
+            android:textSize="20dp"
+            android:id="@+id/tv_two"
+                android:gravity="center_vertical"
+            />
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/tv_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="状态"
+            android:textSize="20dp"
+            android:gravity="center"
+           
+            />
+        
+    </LinearLayout>
+    
+</LinearLayout>

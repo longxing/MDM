@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="\t\t\t企业移动应用商店（EmaStore）是企业级移动信息化基础支撑平台，它涵盖移动设备管理（Mobile Device Management）,移动内容管理（mobile Application Management）和移动应用管理（Mobile Application Management）的新功能，为企业在移动优先时代提供一套完善的移动IT解决方案。"
+        android:textSize="18dp" 
+         />
+
+</RelativeLayout>

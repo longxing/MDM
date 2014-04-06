@@ -1,0 +1,192 @@
+今日：
+1，日志操作结果更新；（前后台联动）
+2，存储容量更新；（前后台联动）
+3，流量统计功能研发了部分；
+4，广州携智平台截屏；
+
+惠州到南昌：
+方小红 362330198601044581
+谁能帮抢啊 
+
+
+ pm install -s/-r  apkPath
+ 01-09 16:02:13.235: E/GexinSdkMsgReceiver(16391): 服务器出错。。。
+ 
+ 
+ 
+ APK内存 SDCARD互移动 ,这个写的不错
+ http://www.eoeandroid.com/thread-192182-1-1.html
+ http://www.myexception.cn/android/1283301.html
+ 
+ 
+ 船票
+ http://zhidao.baidu.com/link?url=GlfstYkybMnJ14Z5bbJwJu2yg9KlW6Wh4PGajkf56U70PvS4swDHFCmESdErKQrRNxOO_3HVYFFFeNau4PiV0_
+ http://zhidao.baidu.com/link?url=kInTTbRoQvm4D0eD41yTKYJqg1lfykMyG_gBl6bHTlNZ98R3IN-ne4dPalMhc2_39Ggjz5KXcIfnybkINWFQK_
+ 
+ 
+ 
+ 01-09 16:44:33.400: E/BootBroadcastReceiver(17749): FlowInfo:
+ [{"name":"total","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10051","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10007","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10022","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10070","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10078","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10001","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10030","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10029","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10032","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10034","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10074","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10073","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10080","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10079","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10076","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10062","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10053","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "},
+ {"name":"10077","rx_":"18.03  MB ","totalX_":"21.0  MB ","tx_":"2.97  MB "}]
+ 
+ 01-09 16:51:51.671: E/BootBroadcastReceiver(17942): FlowInfo:
+ [{"name":"total","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10051","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10007","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10022","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10070","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10078","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10001","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10030","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10029","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10032","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10034","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10074","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10073","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10080","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10079","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10076","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10062","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10053","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"},
+ {"name":"10077","rx_":"18.04MB","totalX_":"21.01MB","tx_":"2.98MB"}]
+ 
+ 01-09 16:54:19.598: E/BootBroadcastReceiver(18075): FlowInfo:
+ [{"name":"total","rx_":"18.05MB","totalX_":"21.05MB","tx_":"3MB"},
+ {"name":"10051","rx_":"42.84MB","totalX_":"45.48MB","tx_":"2.63MB"},
+ {"name":"10007","rx_":"1014.35KB","totalX_":"1.13MB","tx_":"137.7KB"},
+ {"name":"10022","rx_":"1.66KB","totalX_":"2.94KB","tx_":"1.28KB"},
+ {"name":"10070","rx_":"2.66MB","totalX_":"2.68MB","tx_":"17.56KB"},
+ {"name":"10078","rx_":"16.2KB","totalX_":"40.85KB","tx_":"24.65KB"},
+ {"name":"10001","rx_":"167.24KB","totalX_":"378.08KB","tx_":"210.84KB"},
+ {"name":"10030","rx_":"51.89KB","totalX_":"67.9KB","tx_":"16.01KB"},
+ {"name":"10029","rx_":"35.62KB","totalX_":"54.25KB","tx_":"18.63KB"},
+ {"name":"10032","rx_":"0.68KB","totalX_":"5.83KB","tx_":"5.16KB"},
+ {"name":"10034","rx_":"95.33KB","totalX_":"449.8KB","tx_":"354.48KB"},
+ {"name":"10074","rx_":"1.04MB","totalX_":"1.63MB","tx_":"607.76KB"},
+ {"name":"10073","rx_":"7.69KB","totalX_":"845.07KB","tx_":"837.38KB"},
+ {"name":"10080","rx_":"1.17MB","totalX_":"2.3MB","tx_":"1.12MB"},
+ {"name":"10079","rx_":"6.75MB","totalX_":"14.61MB","tx_":"7.86MB"},
+ {"name":"10076","rx_":"38.84MB","totalX_":"39.45MB","tx_":"632.38KB"},
+ {"name":"10062","rx_":"62.6KB","totalX_":"75.17KB","tx_":"12.57KB"},
+ {"name":"10053","rx_":"2.13MB","totalX_":"2.24MB","tx_":"113.78KB"},
+ {"name":"10077","rx_":"198.38KB","totalX_":"210.19KB","tx_":"11.81KB"}]
+ 
+ 01-09 17:00:52.776: E/GexinSdkMsgReceiver(18075): appInfo:
+ [{"appName":"AppName","packageName":"cn.trinea.android.common","versionName":"1.0","uid":10071},
+ {"appName":"移动终端管家","packageName":"com.CyberWise.CyberMDM","versionName":"2.1.1","uid":10051},
+ {"appName":"ES 文件浏览器","packageName":"com.estrongs.android.pop","versionName":"3.0.6.0","uid":10078},
+ {"appName":"storageandflow","packageName":"com.example.storageandflow","versionName":"1.0","uid":10072},
+ {"appName":"com.liao","packageName":"com.liao","versionName":"1.0","uid":10069},
+ {"appName":"MobileIron","packageName":"com.mobileiron","versionName":"5.6.0.2.9R","uid":10074},
+ {"appName":"91助手连接服务","packageName":"com.nd.assistance","versionName":"2.6.285","uid":10073},
+ {"appName":"欧朋浏览器","packageName":"com.oupeng.mini.android","versionName":"7.6.1","uid":10080},
+ {"appName":"pureonedigital","packageName":"com.pureonedigital","versionName":"1.0","uid":10075},
+ {"appName":"360手机助手","packageName":"com.qihoo.appstore","versionName":"1.9.230","uid":10079},
+ {"appName":"我查查","packageName":"com.wochacha","versionName":"5.6.5","uid":10077}]
+ 
+ 
+ 
+ 01-09 17:30:15.959: E/GexinSdkMsgReceiver(18700): appInfo:
+ [{"appName":"AppName","packageName":"cn.trinea.android.common","versionName":"1.0","uid":10071},
+ {"appName":"移动终端管家","packageName":"com.CyberWise.CyberMDM","versionName":"2.1.1","uid":10051},
+ {"appName":"ES 文件浏览器","packageName":"com.estrongs.android.pop","versionName":"3.0.6.0","uid":10078},
+ {"appName":"storageandflow","packageName":"com.example.storageandflow","versionName":"1.0","uid":10072},
+ {"appName":"com.liao","packageName":"com.liao","versionName":"1.0","uid":10069},
+ {"appName":"MobileIron","packageName":"com.mobileiron","versionName":"5.6.0.2.9R","uid":10074},
+ {"appName":"91助手连接服务","packageName":"com.nd.assistance","versionName":"2.6.285","uid":10073},
+ {"appName":"欧朋浏览器","packageName":"com.oupeng.mini.android","versionName":"7.6.1","uid":10080},
+ {"appName":"pureonedigital","packageName":"com.pureonedigital","versionName":"1.0","uid":10075},
+ {"appName":"360手机助手","packageName":"com.qihoo.appstore","versionName":"1.9.230","uid":10079},
+ {"appName":"我查查","packageName":"com.wochacha","versionName":"5.6.5","uid":10077}]
+ 
+ 
+ 01-09 17:29:25.805: E/BootBroadcastReceiver(18700): FlowInfo:
+ [{"name":"total","rx_":"6.41MB","totalX_":"6.99MB","tx_":"590.75KB"},
+ {"name":"10051","rx_":"42.86MB","totalX_":"45.52MB","tx_":"2.66MB"},
+ {"name":"10007","rx_":"1014.35KB","totalX_":"1.13MB","tx_":"137.7KB"},
+ {"name":"10022","rx_":"1.66KB","totalX_":"2.94KB","tx_":"1.28KB"},
+ {"name":"10070","rx_":"2.66MB","totalX_":"2.68MB","tx_":"17.56KB"},
+ {"name":"10078","rx_":"16.2KB","totalX_":"40.85KB","tx_":"24.65KB"},
+ {"name":"10072","rx_":"14.69MB","totalX_":"16.39MB","tx_":"1.7MB"},
+ {"name":"10001","rx_":"167.66KB","totalX_":"378.91KB","tx_":"211.26KB"},
+ {"name":"10030","rx_":"51.89KB","totalX_":"67.9KB","tx_":"16.01KB"},
+ {"name":"10029","rx_":"35.62KB","totalX_":"54.25KB","tx_":"18.63KB"},
+ {"name":"10032","rx_":"0.68KB","totalX_":"5.83KB","tx_":"5.16KB"},
+ {"name":"10034","rx_":"95.77KB","totalX_":"451.67KB","tx_":"355.9KB"},
+ {"name":"10074","rx_":"1.04MB","totalX_":"1.64MB","tx_":"608.29KB"},
+ {"name":"10073","rx_":"7.69KB","totalX_":"845.07KB","tx_":"837.38KB"},
+ {"name":"10080","rx_":"1.17MB","totalX_":"2.3MB","tx_":"1.12MB"},
+ {"name":"10079","rx_":"6.75MB","totalX_":"14.61MB","tx_":"7.86MB"},
+ {"name":"10076","rx_":"38.84MB","totalX_":"39.46MB","tx_":"640.05KB"},
+ {"name":"10062","rx_":"62.6KB","totalX_":"75.17KB","tx_":"12.57KB"},
+ {"name":"10053","rx_":"2.13MB","totalX_":"2.24MB","tx_":"113.78KB"},
+ {"name":"10077","rx_":"198.38KB","totalX_":"210.19KB","tx_":"11.81KB"}]
+ 
+ 
+ 
+ 
+ 01-09 17:36:10.254: E/BootBroadcastReceiver(18971): FlowInfo:
+ [{"name":"10051","rx_":"42.86MB","totalX_":"45.52MB","tx_":"2.66MB"},
+ {"name":"10007","rx_":"1014.35KB","totalX_":"1.13MB","tx_":"137.7KB"},
+ {"name":"10022","rx_":"1.66KB","totalX_":"2.94KB","tx_":"1.28KB"},
+ {"name":"10070","rx_":"2.66MB","totalX_":"2.68MB","tx_":"17.56KB"},
+ {"name":"10078","rx_":"16.2KB","totalX_":"40.85KB","tx_":"24.65KB"},
+ {"name":"10072","rx_":"14.69MB","totalX_":"16.39MB","tx_":"1.7MB"},
+ {"name":"10001","rx_":"168.07KB","totalX_":"379.75KB","tx_":"211.67KB"},
+ {"name":"10030","rx_":"51.89KB","totalX_":"67.9KB","tx_":"16.01KB"},
+ {"name":"10029","rx_":"35.62KB","totalX_":"54.25KB","tx_":"18.63KB"},
+ {"name":"10032","rx_":"0.68KB","totalX_":"5.83KB","tx_":"5.16KB"},
+ {"name":"10034","rx_":"95.92KB","totalX_":"452.28KB","tx_":"356.36KB"},
+ {"name":"10074","rx_":"1.05MB","totalX_":"1.64MB","tx_":"609.33KB"},
+ {"name":"10073","rx_":"7.69KB","totalX_":"845.07KB","tx_":"837.38KB"},
+ {"name":"10080","rx_":"1.17MB","totalX_":"2.3MB","tx_":"1.12MB"},
+ {"name":"10079","rx_":"6.75MB","totalX_":"14.61MB","tx_":"7.86MB"},
+ {"name":"10076","rx_":"38.84MB","totalX_":"39.47MB","tx_":"647.84KB"},
+ {"name":"10062","rx_":"62.6KB","totalX_":"75.17KB","tx_":"12.57KB"},
+ {"name":"10053","rx_":"2.13MB","totalX_":"2.24MB","tx_":"113.78KB"},
+ {"name":"10077","rx_":"198.38KB","totalX_":"210.19KB","tx_":"11.81KB"},
+ {"name":"total","rx_":"118.18MB","totalX_":"135.06MB","tx_":"16.88MB"}]
+ 
+ 
+ 
+ 01-13 13:37:07.154: E/BootBroadcastReceiver(3125): FlowInfo:
+ [{"name":"10051","rx_":"43.11MB","totalX_":"46.13MB","tx_":"3.02MB"},
+ {"name":"10007","rx_":"1014.35KB","totalX_":"1.13MB","tx_":"137.7KB"},
+ {"name":"10022","rx_":"2.33KB","totalX_":"4.12KB","tx_":"1.79KB"},
+ {"name":"10070","rx_":"2.66MB","totalX_":"2.68MB","tx_":"17.56KB"},
+ {"name":"10078","rx_":"18.97KB","totalX_":"48.16KB","tx_":"29.19KB"},
+ {"name":"10072","rx_":"14.69MB","totalX_":"16.39MB","tx_":"1.7MB"},
+ {"name":"10001","rx_":"218.39KB","totalX_":"477.99KB","tx_":"259.59KB"},
+ {"name":"10030","rx_":"71.36KB","totalX_":"93.4KB","tx_":"22.03KB"},
+ {"name":"10029","rx_":"44.6KB","totalX_":"67.11KB","tx_":"22.51KB"},
+ {"name":"10032","rx_":"0.68KB","totalX_":"5.83KB","tx_":"5.16KB"},
+ {"name":"10034","rx_":"109.39KB","totalX_":"610.37KB","tx_":"500.98KB"},
+ {"name":"10074","rx_":"1.13MB","totalX_":"1.74MB","tx_":"622.92KB"},
+ {"name":"10071","rx_":"1.67MB","totalX_":"1.76MB","tx_":"92.17KB"},
+ {"name":"10073","rx_":"7.69KB","totalX_":"845.07KB","tx_":"837.38KB"},
+ {"name":"10079","rx_":"92.01MB","totalX_":"99.94MB","tx_":"7.92MB"},
+ {"name":"10076","rx_":"57.32MB","totalX_":"58.13MB","tx_":"830.7KB"},
+ {"name":"10062","rx_":"70.18KB","totalX_":"84.19KB","tx_":"14.01KB"},
+ {"name":"10053","rx_":"2.74MB","totalX_":"2.89MB","tx_":"146.36KB"},
+ {"name":"10075","rx_":"0.45KB","totalX_":"1.88KB","tx_":"1.43KB"},
+ {"name":"total","rx_":"223.35MB","totalX_":"240.12MB","tx_":"16.77MB"}]
+ 
+ 
+ 

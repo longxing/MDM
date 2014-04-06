@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/item_height_"
+    android:background="@drawable/head_bg"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/common_btn_weight_"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/new_back"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_selection"
+        android:layout_width="@dimen/common_btn_weight_"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/update_maintenance_rightbutton"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_back"
+        android:layout_alignTop="@+id/btn_back"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_refresh"
+        android:layout_width="@dimen/common_btn_weight_"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/flush"
+        android:gravity="center"
+        android:textColor="@color/white" 
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

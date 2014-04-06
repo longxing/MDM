@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+      android:background="#eaeaea"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <include layout="@layout/common_head" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#eaeaea"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="受控内容" 
+            android:textSize="20dp"/>
+        
+        <TextView
+              android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="状态" 
+               android:textSize="20dp"/>
+    </LinearLayout>
+	<ListView 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/mainlog_list"
+	    android:divider="#000"
+        android:dividerHeight="1px"
+        android:layout_margin="10dip"
+	    ></ListView>
+</LinearLayout>
